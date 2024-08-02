@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+    <suite name="Suite">
+
+    <!--Suite daxilinde 1den cox test yazmaq olur,
+    her testin daxilinde ise 1den cox runner class isletmek olur  -->
+
+    <test verbose="2" preserve-order="true" name="Suite 1 - TestRunner">
+            <classes>
+                <class name="runners.TestNGRunner1"/>
+                <class name="runners.TestNGRunner2"/>
+            </classes>
+        </test>
+
+        <test verbose="2" preserve-order="true" name="Suite 1 - TestRunner2">
+            <classes>
+                <class name="runners.TestNGRunner1"/>
+                <class name="runners.TestNGRunner2"/>
+            </classes>
+        </test>
+    </suite>
+
